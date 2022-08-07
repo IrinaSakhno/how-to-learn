@@ -1,18 +1,8 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
-.margin-zero {
-  margin: 0;
-	padding: 0;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -29,7 +19,7 @@
 
 .header__title {
   margin: 0;
-	padding: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   width: 730px;
@@ -61,7 +51,6 @@
   right: 0;
   z-index: 9;
 }
-
 
 .header__square-pic {
   height: 568px;
@@ -97,7 +86,7 @@
 
 .two-columns__brief {
   margin: 0;
-	padding: 0;
+  padding: 0;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -118,7 +107,7 @@
 
 .two-columns__paragpraph {
   margin: 0;
-	padding: 0;
+  padding: 0;
 }
 
 .two-columns__paragpraph-2 {
@@ -137,14 +126,13 @@
 }
 
 .section-title {
-	padding: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
   text-align: center;
   width: 60%;
   margin: 100px auto 20px;
-
 }
 
 .section-subtitle {
@@ -171,7 +159,7 @@
 }
 
 .table__heading {
-	padding: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -207,7 +195,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
-	padding: 0;
+  padding: 0;
   margin: 100px auto;
 }
 
@@ -243,7 +231,7 @@
   color: white;
   text-align: center;
   width: 60%;
-	padding: 0;
+  padding: 0;
   margin: 90px auto 20px;
   z-index: 1;
 }
@@ -255,7 +243,7 @@
   color: white;
   text-align: center;
   width: 60%;
-	padding: 0;
+  padding: 0;
   margin: 0 auto;
   z-index: 1;
 }
