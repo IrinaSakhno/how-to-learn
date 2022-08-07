@@ -22,7 +22,8 @@
   padding: 0;
   display: flex;
   justify-content: center;
-  width: 730px;
+  max-width: 730px;
+  width: 100%;
   z-index: 10;
   line-height: 96px;
   font-size: 102px;
@@ -39,7 +40,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
 }
 
 .header__link {
@@ -95,7 +97,8 @@
 .two-columns__brief {
   margin: 0;
   padding: 0;
-  width: 175px;
+  max-width: 175px;
+  width: 100%;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -116,17 +119,20 @@
 .two-columns__paragraph {
   margin: 0 0 30px;
   padding: 0;
+  width: 100%;
 }
 
 .two-columns__paragraph:last-child {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+  width: 100%;
 }
 
 .digits {
@@ -174,6 +180,7 @@
   font-size: 24px;
   font-weight: 600;
   margin: 0;
+  width: 100%;
 }
 
 .table__text {
@@ -182,6 +189,7 @@
   font-weight: normal;
   padding: 0;
   margin: 0 0 20px;
+  width: 100%;
 }
 
 .feynman {
@@ -198,7 +206,8 @@
 }
 
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
@@ -215,6 +224,7 @@
   font-weight: normal;
   text-align: center;
   margin: 70px auto 0;
+  width: 100%;
 }
 
 .feynman__link {
@@ -286,6 +296,7 @@
   color: white;
   margin: 0 0 20px;
   padding: 0;
+  width: 100%;
 }
 
 .table__text_theme_dark {
@@ -295,6 +306,7 @@
   color: white;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .kaufman__triangle {
@@ -356,6 +368,7 @@
   font-weight: 600;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .footer__column-links {
@@ -363,6 +376,7 @@
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .footer__social-icon {
