@@ -1,5 +1,10 @@
-h1 h2 h3 h4 h5 p {
+* {
 	margin: 0;
+	padding: 0;
+}
+
+.margin-zero {
+  margin: 0;
 	padding: 0;
 }
 
@@ -23,6 +28,8 @@ h1 h2 h3 h4 h5 p {
 }
 
 .header__title {
+  margin: 0;
+	padding: 0;
   display: flex;
   justify-content: center;
   width: 730px;
@@ -89,6 +96,8 @@ h1 h2 h3 h4 h5 p {
 }
 
 .two-columns__brief {
+  margin: 0;
+	padding: 0;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -107,6 +116,11 @@ h1 h2 h3 h4 h5 p {
   flex-direction: column;
 }
 
+.two-columns__paragpraph {
+  margin: 0;
+	padding: 0;
+}
+
 .two-columns__paragpraph-2 {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -122,7 +136,9 @@ h1 h2 h3 h4 h5 p {
   height: 100%;
 }
 
-.section-title{
+.section-title {
+  margin: 0;
+	padding: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -133,6 +149,7 @@ h1 h2 h3 h4 h5 p {
 }
 
 .section-subtitle {
+  padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -155,17 +172,19 @@ h1 h2 h3 h4 h5 p {
 }
 
 .table__heading {
+	padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 20px;
+  padding: 0;
+  margin: 0 0 20px;
 }
 
 .feynman {
@@ -189,6 +208,7 @@ h1 h2 h3 h4 h5 p {
   text-align: center;
   display: flex;
   justify-content: center;
+	padding: 0;
   margin: 100px auto;
 }
 
@@ -207,6 +227,7 @@ h1 h2 h3 h4 h5 p {
   position: absolute;
   top: 50%;
   right: 48px;
+  color: #2f80ed;
 }
 
 .kaufman {
@@ -223,6 +244,7 @@ h1 h2 h3 h4 h5 p {
   color: white;
   text-align: center;
   width: 60%;
+	padding: 0;
   margin: 90px auto 20px;
   z-index: 1;
 }
@@ -234,6 +256,7 @@ h1 h2 h3 h4 h5 p {
   color: white;
   text-align: center;
   width: 60%;
+	padding: 0;
   margin: 0 auto;
   z-index: 1;
 }
@@ -259,7 +282,8 @@ h1 h2 h3 h4 h5 p {
   font-size: 24px;
   font-weight: 600;
   color: white;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
+  padding: 0;
 }
 
 .table__text_theme_dark {
@@ -267,6 +291,8 @@ h1 h2 h3 h4 h5 p {
   font-size: 18px;
   font-weight: normal;
   color: white;
+  padding: 0;
+  margin: 0;
 }
 
 .kaufman__triangle {
@@ -329,6 +355,7 @@ h1 h2 h3 h4 h5 p {
   font-size: 18px;
   font-weight: 600;
   margin: 0;
+  padding: 0;
 }
 
 .footer__column-links {
