@@ -1,0 +1,11 @@
+.two-columns__paragraph {
+  margin: 0 0 30px;
+  padding: 0;
+  width: 100%;
+}
+
+.two-columns__paragraph:last-child {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
